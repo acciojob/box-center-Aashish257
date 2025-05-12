@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body {
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+div {
+	position: absolute;
+	background-color: lightblue; 
+	width: 200px; 
+	height:200px; 
+	border: 2px solid black; 
+	color: purple; 
+	text-align: center;
+	place-content: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
